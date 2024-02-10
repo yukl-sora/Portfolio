@@ -1,0 +1,21 @@
+.footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $background-color;
+}
+
+.footer-links {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+}

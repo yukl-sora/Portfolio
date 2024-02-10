@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+
+    height: 700px;
+    margin-top: 70px;
+
+    background-color: $background-color;
+    background-image: url('./../src/content-abstract/Abstract.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.welcome-preview {
+    text-align: center;
+    color: #fff;
+}
+
+.header-header {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    .my-name {color: $accent-blue-color;}
+}
+
+.smaller-header {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.welcome-description {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.btn-cv {
+    width: 160px;
+    height: 48px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: $accent-blue-color;
+    letter-spacing: 0.5px;
+    transition: .3s;
+
+    &:hover{background-color: $hover-blue-color;}
+}
+

@@ -1,0 +1,45 @@
+.contacts-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+    .container {
+        text-align: center;
+    }
+}
+
+.contact-header {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: $accent-blue-color;
+}
+
+.socweb {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    a {
+        color: #000;
+        transition: .2s;
+
+        &:hover {opacity: .7;}
+    }
+}
+
+.email {
+    margin-bottom: 300px;
+
+    .email-link {
+        transition: .2s;
+        color: $accent-blue-color;
+        
+        &:hover {color: $hover-blue-color;}
+    }
+}
+
+.smaller-header {
+    font-size: 40px;
+    font-weight: 700;
+}

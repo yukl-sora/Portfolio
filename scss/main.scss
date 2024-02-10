@@ -1,0 +1,20 @@
+//*  Base
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+
+//*  Blocks
+//^  main blocks
+@import "./content/nav";
+@import "./content/header";
+@import "./content/content";
+@import "./content/footer";
+//^  project blocks
+@import "./project-page/content";
+
+//^  skill blocks
+@import "./skills/skills-content";
+
+
+//^  contact blocks
+@import "./contacts/contacts-content";
